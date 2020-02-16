@@ -1,0 +1,51 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:11.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:11.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:11.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:11.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:11.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:11.6px;color:rgb(255,195,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:11.6px;color:rgb(255,194,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_008{font-family:Arial,serif;font-size:11.6px;color:rgb(255,194,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:16.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:16.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="index_files/wz_jsgraphics.html"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="Bendolody.jpg" width="595" height="841"></div>
+<div style="position:absolute;left:80.80px;top:27.33px" class="cls_002"><span class="cls_002">DATA WYDANIA: </span><span class="cls_003" id="dataD"> 01/02/2020</span></div>
+<div style="position:absolute;left:380.62px;top:27.33px" class="cls_002"><span class="cls_002">UNIKALNY KOD:</span><span class="cls_003"> i-29-Vi-6</span></div>
+<div style="position:absolute;left:80.80px;top:211.70px" class="cls_004"><span class="cls_004">Kupon ten upoważnia do jednokrotnego odbioru produktu gratis przy kolejnym</span></div>
+<div style="position:absolute;left:80.80px;top:225.21px" class="cls_004"><span class="cls_004">dowolnym zakupie z oferty klasycznej. Kupon ważny jest przez 7 dni od czasu</span></div>
+<div style="position:absolute;left:80.80px;top:238.73px" class="cls_004"><span class="cls_004">jego wygenerowania i może być zrealizowany w dowolnej restauracji McDonald’s</span></div>
+<div style="position:absolute;left:80.80px;top:252.24px" class="cls_004"><span class="cls_004">w Polsce z wyłączeniem restauracji znajdujących się na terenie Portu Lotniczego</span></div>
+<div style="position:absolute;left:80.80px;top:265.75px" class="cls_004"><span class="cls_004">im. Fryderyka Chopina w Warszawie oraz Portu Lotniczego im. Lecha Wałęsy w</span></div>
+<div style="position:absolute;left:80.80px;top:279.26px" class="cls_004"><span class="cls_004">Gdańsku. Szczegółowy regulamin ankiety „Opinia Gości” znajduje się na</span></div>
+<div style="position:absolute;left:80.80px;top:292.78px" class="cls_004"><span class="cls_004">stronie</span><a href="http://www.mcdonalds.pl/">www.mcdonalds.pl</a><span class="cls_004"> w sekcji </span><a href="https://mcdonalds.pl/o-mcdonalds/regulaminy">Regulaminy</a> </div>
+<div style="position:absolute;left:262.53px;top:344.87px" class="cls_006"><span class="cls_006">DRUKUJ /</span></div>
+<div style="position:absolute;left:233.19px;top:364.39px" class="cls_006"><span class="cls_006">ZAPISZ JAKO PDF</span></div>
+<div style="position:absolute;left:234.56px;top:406.43px" class="cls_006"><span class="cls_006">PRZEŚLIJ KUPON</span></div>
+<div style="position:absolute;left:208.63px;top:428.95px" class="cls_007"><span class="cls_007">(WYSYŁKA W CIĄGU 24 GODZIN)</span></div>
+</div>
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = dd-1 + '/' + mm + '/' + yyyy;
+document.getElementById("dataD").innerHTML = today;
+console.log(today);
+</script>
+
+
+
+</body></html>
